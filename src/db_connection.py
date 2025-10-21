@@ -9,7 +9,7 @@ def create_connection():
         connection = mysql.connector.connect(
             host="127.0.0.1",
             user="root",          # replace with your MySQL username
-            password="Minu1981@",  # replace with your MySQL password
+            password="",  # replace with your MySQL password
             database="saas_funnel"
         )
         if connection.is_connected():
